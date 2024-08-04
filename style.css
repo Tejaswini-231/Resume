@@ -1,0 +1,101 @@
+*{
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+#git{
+    padding-right: 20px;
+    margin-left:45px;
+    mix-blend-mode: multiply;
+}
+#insta{
+    margin-left:20px;
+    mix-blend-mode: multiply;
+    height:45px;
+}
+.space{
+    padding-left:20px;
+}
+.resume {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    width: 30%;
+    background-color:rgb(155, 153, 154);
+    color: #fff;
+    padding: 20px;
+}
+
+.left-column h1, .left-column h2, .left-column h3 {
+    margin-top: 0;
+}
+
+.profile-picture img {
+    width: 60%;
+    margin-left:60px;
+    border-radius: 50%;
+}
+
+.contact-info, .education, .languages {
+    margin: 20px 0;
+}
+
+.languages .language-skill {
+    margin-bottom: 10px;
+}
+
+.language-skill .skill-bar {
+    width: 100%;
+    background-color: #fff;
+    height: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.language-skill .skill-level {
+    height: 8px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.right-column {
+    width: 70%;
+    padding: 20px;
+}
+
+.right-column h3 {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.profile p, .experience .job p, .skills .skill p, .interests p {
+    margin: 10px 0;
+}
+
+.skills .skill {
+    margin-bottom: 10px;
+}
+
+.skill .skill-bar {
+    width: 100%;
+    background-color: #e5e5e5;
+    height: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.skill .skill-level {
+    height: 8px;
+    background-color: black;
+    border-radius: 5px;
+}
